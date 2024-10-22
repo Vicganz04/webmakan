@@ -36,8 +36,9 @@
 </head>
 <body>
     <h1>Kontrol Servo ESP32</h1>
-    <form action="/servo/on">
-        <input type="submit" value="Tombol ON" class="button">
+    <button onclick="location.href='http://<192.168.1.8/>/servo/0'">Posisi 0</button>
+    <button onclick="location.href='http://<192.168.1.8>/servo/90'">Posisi 90</button>
+    <button onclick="location.href='http://<192.168.1.8>/servo/180'">Posisi 180</button>
     </form>
 </body>
 </html>
